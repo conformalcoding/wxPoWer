@@ -1,0 +1,55 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.8.34525.116
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "power_core_vs2022", "src\power_core_vs2022\power_core_vs2022.vcxproj", "{EC75EF5E-6610-4702-A8CA-147576B1F735}"
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "power_test_vs2022", "src\power_test_vs2022\power_test_vs2022.vcxproj", "{CD120255-5F13-4A11-B7B4-D0291085F655}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC75EF5E-6610-4702-A8CA-147576B1F735} = {EC75EF5E-6610-4702-A8CA-147576B1F735}
+	EndProjectSection
+EndProject
+Project("{8BC9CEB8-8B4A-11D0-8D11-00A0C91BC942}") = "power_wxwidgets_vs2022", "src\power_wxwidgets_vs2022\power_wxwidgets_vs2022.vcxproj", "{83D01061-DE6D-4D51-9C9B-4123516F17A4}"
+	ProjectSection(ProjectDependencies) = postProject
+		{EC75EF5E-6610-4702-A8CA-147576B1F735} = {EC75EF5E-6610-4702-A8CA-147576B1F735}
+	EndProjectSection
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|x64 = Debug|x64
+		Debug|x86 = Debug|x86
+		Release|x64 = Release|x64
+		Release|x86 = Release|x86
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{EC75EF5E-6610-4702-A8CA-147576B1F735}.Debug|x64.ActiveCfg = Debug|x64
+		{EC75EF5E-6610-4702-A8CA-147576B1F735}.Debug|x64.Build.0 = Debug|x64
+		{EC75EF5E-6610-4702-A8CA-147576B1F735}.Debug|x86.ActiveCfg = Debug|x64
+		{EC75EF5E-6610-4702-A8CA-147576B1F735}.Debug|x86.Build.0 = Debug|x64
+		{EC75EF5E-6610-4702-A8CA-147576B1F735}.Release|x64.ActiveCfg = Release|x64
+		{EC75EF5E-6610-4702-A8CA-147576B1F735}.Release|x64.Build.0 = Release|x64
+		{EC75EF5E-6610-4702-A8CA-147576B1F735}.Release|x86.ActiveCfg = Release|x64
+		{EC75EF5E-6610-4702-A8CA-147576B1F735}.Release|x86.Build.0 = Release|x64
+		{CD120255-5F13-4A11-B7B4-D0291085F655}.Debug|x64.ActiveCfg = Debug|x64
+		{CD120255-5F13-4A11-B7B4-D0291085F655}.Debug|x64.Build.0 = Debug|x64
+		{CD120255-5F13-4A11-B7B4-D0291085F655}.Debug|x86.ActiveCfg = Debug|x64
+		{CD120255-5F13-4A11-B7B4-D0291085F655}.Debug|x86.Build.0 = Debug|x64
+		{CD120255-5F13-4A11-B7B4-D0291085F655}.Release|x64.ActiveCfg = Release|x64
+		{CD120255-5F13-4A11-B7B4-D0291085F655}.Release|x64.Build.0 = Release|x64
+		{CD120255-5F13-4A11-B7B4-D0291085F655}.Release|x86.ActiveCfg = Release|x64
+		{CD120255-5F13-4A11-B7B4-D0291085F655}.Release|x86.Build.0 = Release|x64
+		{83D01061-DE6D-4D51-9C9B-4123516F17A4}.Debug|x64.ActiveCfg = Debug|x64
+		{83D01061-DE6D-4D51-9C9B-4123516F17A4}.Debug|x64.Build.0 = Debug|x64
+		{83D01061-DE6D-4D51-9C9B-4123516F17A4}.Debug|x86.ActiveCfg = Debug|x64
+		{83D01061-DE6D-4D51-9C9B-4123516F17A4}.Release|x64.ActiveCfg = Release|x64
+		{83D01061-DE6D-4D51-9C9B-4123516F17A4}.Release|x64.Build.0 = Release|x64
+		{83D01061-DE6D-4D51-9C9B-4123516F17A4}.Release|x86.ActiveCfg = Release|x64
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {D88937FA-7A86-4CE2-A3FC-54737617FE20}
+	EndGlobalSection
+EndGlobal
