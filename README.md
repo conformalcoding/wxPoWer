@@ -2,7 +2,7 @@
 
 This is _wxPoWer_: a proof-of-concept, pro-human, drop-in augmentation for textual communication platforms. It takes the message you would like to post and digitally 'signs' it by solving a proof-of-work (PoW) problem. Other users can easily verify that you have done this at any time without the need for a central authority.
 
-Please see the `doc` directory for more information about this project.
+**For more information, please see [this Substack article](https://conformalcoding.substack.com/p/how-to-combat-the-online-bot-scourge?r=4a53wq).** There are also more notes, primarily technical, in the `doc` directory.
 
 It is not being actively developed, but documentation may be expanded in due course. Feel free to get in touch if there is any interest in it.
 
